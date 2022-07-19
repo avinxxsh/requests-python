@@ -1,12 +1,12 @@
 import requests
 import statistics
 
-endpoint = 'https://bfhldevapigw.healthrx.co.in/campus-hiring/submit?id=RollNo'
-params = {'id': 19070122039}
+endpoint = 'api_here'
+params = {}
 headers = {'Content-Type': 'application/json'}
 
-Y = [178, 630, 277, 137, 535, 272, 165, 873, 698, 191, 490, 848, 186, 352]
-secret = '901UB5'
+Y = ['received data from get']
+secret = 'XXXXX'
 
 size = len(Y)
 mean = round(statistics.mean(Y), 2)
